@@ -52,7 +52,7 @@ android {
 
 dependencies {
     coreLibraryDesugaring(libs.coreLibraryDesugaring)
-    implementation(platform(libs.androidx.compose.bom))
+    // BOM removed - direct versions 1.6.1
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation(libs.androidx.lifecycle.viewmodel.compose)
@@ -75,5 +75,5 @@ dependencies {
     kapt(libs.androidx.room.compiler)
     kapt(libs.hilt.compiler)
 
-    debugImplementation("androidx.compose.ui:ui-tooling:2024.02.00")
+    debugImplementation("androidx.compose.ui:ui-tooling:1.6.1")
 }
