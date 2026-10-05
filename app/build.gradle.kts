@@ -75,5 +75,5 @@ dependencies {
     kapt(libs.androidx.room.compiler)
     kapt(libs.hilt.compiler)
 
-    debugImplementation(libs.androidx.compose.ui.tooling)
+    debugImplementation("androidx.compose.ui:ui-tooling:2024.02.00")
 }
